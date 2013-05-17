@@ -50,6 +50,24 @@ select {
 	
 }
 
+td {
+
+	font-size: 12px;
+
+	color: white;
+	
+	text-shadow: 0 1px 0 black;
+	
+}
+
+center {
+	
+	color: white;
+	
+	text-shadow: 0 1px 0 black;
+	
+}
+
 input[type=submit] {
 
 	width: auto; height: 40px;
@@ -106,10 +124,10 @@ a {
 	
 	font-size: 12px;
 	
-	padding: 5px;
+	padding: 0 0 0 0;
 	
 	line-height: 75px;
-	text-align: left;
+	text-align: center;
 	
 	background-color: #338033;
 	color: white;
@@ -117,7 +135,7 @@ a {
 	box-shadow: 0 2px 0 #1f4d1f;
 	text-shadow: 0 1px 1px black;
 	
-	overflow: hidden;
+	overflow: scroll;
 	
 }
 
@@ -187,6 +205,7 @@ a {
 	min-width: 225px;
 	
 	text-align:left;
+	
 }
 
 .sidePanelRight {
@@ -252,44 +271,48 @@ a {
 	}
 
 .moduleTitle {
-        padding-left: 10px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        border-top-left-radius: 10px 10px;
-        border-top-right-radius: 10px 10px;
-        background:green;
-        font-weight:bold;
-        font-size:15;
+
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	background:green;
+	font-weight:bold;
+	font-size:15;
 	color: white;
+	
 }
 
 .moduleContent {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-bottom-left-radius: 10px 10px;
-        border-bottom-right-radius: 10px 10px;
 
-        min-height: 40px;
-        color:white;
-        border-color: green;
-        border-style: solid;
-        border-width: 1px
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	
+	min-height: 40px;
+	color:white;
+	border-color: green;
+	border-style: solid;
+	border-width: 1px
+        
 }
 
 .modules {
-        position:absolute;
-        right: 20%;
-        left: 20%;
-        font-family: monospace;
+	position:absolute;
+	right: 20%;
+	left: 20%;
+	font-family: monospace;
 }
 
 .moduleContent td {
 	border-width: 15px;
 	border-spacing: 20px;
 	border-style: solid;
-
+	
 	border-collapse: collapse;
 	color: white;
 }
